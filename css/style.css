@@ -17,8 +17,15 @@ p{
     font-family: 'Open Sans', sans-serif; 
 }
 
+hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
 
-/***** Logo Style ****/
+
+
+/***** Logo and Nav Style ****/
 .logo{
     width: 200px;
     padding-top: 50px;
@@ -45,12 +52,7 @@ p{
     line-height: 1.5;
 }
 
-hr{
-    width: 50%;
-    margin: auto;
-    margin-top: 30px;
-}
-
+/**** All Buttons Style ****/
 .btn {
     margin-top: 30px;
 	background-color: #ffffff;
@@ -113,6 +115,10 @@ hr{
     color: #344f7d;
 }
 
+/**** All Buttons Style End ****/
+
+
+/****  News Style  ****/
 .middle-container{
     margin: 100px 0;
 
@@ -136,6 +142,7 @@ hr{
     margin-left: 30px;
 }
 
+/****  Testimony Style  ****/
 .quote{
     margin-top: 3%;
 }
@@ -147,6 +154,8 @@ hr{
     line-height: 1.5;
 }
 
+
+/****  Welcome Style  ****/  
 .text{
     background-color: #BBBBBB;
     padding: 100px;
@@ -162,6 +171,7 @@ hr{
     color: #ffffff;
 }
 
+/****  Footer  ****/
 .foot-para{
     color: #344f7d;
     padding-top: 2%;

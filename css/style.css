@@ -1,3 +1,4 @@
+/**  DEFAULT  **/
 *{
     padding: 0;
     margin: 0;
@@ -9,7 +10,159 @@ body{
     text-align: center;
 }
 
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+/***** Logo Style ****/
 .logo{
     width: 200px;
     padding-top: 50px;
+}
+
+.mynav{
+    background-color: #344f7d;
+    margin-top: 1%;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/****  HEADING  ****/
+
+.heading{
+    margin-top: 50px;
+}
+.para{
+    width: 30%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+	background-color: #ffffff;
+	border-radius :6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #344f7d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+    padding: 9px 29px;
+    outline: none;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #344f7d 100%);
+    background-color: #344f7d;
+    color: #ffffff;
+}
+
+.mybtn {
+    margin-top: 30px;
+	background-color: #344f7d;
+	border-radius :6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+    padding: 9px 29px;
+    outline: none;
+}
+
+.btn02 {
+    margin-top: 30px;
+	background-color: #ffffff;
+	border-radius :6px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	color: #344f7d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+    padding: 9px 29px;
+    outline: none;
+}
+
+.btn02:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #344f7d 100%);
+    background-color: #344f7d;
+    color: #ffffff;
+}
+
+.mybtn:hover {
+    background-color: #ffffff;
+    color: #344f7d;
+}
+
+.middle-container{
+    margin: 100px 0;
+
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.anchor-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.quote{
+    margin-top: 3%;
+}
+
+.para01{
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+
+.text{
+    background-color: #BBBBBB;
+    padding: 100px;
+}
+
+.text-para{
+    font-size: 1.5rem;
+}
+
+.greeting{
+    background-color: #344f7d;
+    padding: 80px;
+    color: #ffffff;
+}
+
+.foot-para{
+    color: #344f7d;
+    padding-top: 2%;
 }
